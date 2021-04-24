@@ -4,10 +4,7 @@ app = FastAPI()
 
 
 @app.get("/items/")
+def get_data()
 
-async def read_items(q: str = Query("hello world")):
 
-    results = {"items": [{"item_id": "Foo"}, {"item_id": "Bar"}]}
-    if q:
-        results.update({"q": q})
-    return results
+"https://koumoul.com/s/data-fair/api/v1/datasets/base-carbone(r)/"
